@@ -37,3 +37,7 @@ sudo chmod +x /usr/local/bin/jsniper.sh
 ```
 jsniper.sh <domain>
 ```
+
+```
+jsniper.sh <domain> | tee -a <output>
+```
