@@ -6,22 +6,35 @@ JavaScript Sniper is a helper script designed for web applications, with a focus
 
 ## Installation
 
-Dependencies:
+### Dependencies
 
+1. <https://github.com/projectdiscovery/httpx> (HTTP Prober).
 ```sh
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 sudo mv ~/go/bin/httpx /usr/local/bin/
+```
+
+2. <https://github.com/projectdiscovery/katana> (URL Crawler).
+```sh
 go install github.com/projectdiscovery/katana/cmd/katana@latest
 sudo mv ~/go/bin/katana /usr/local/bin/
+```
+
+3. <https://github.com/lc/gau> (Passive URL Extractor Through OSINT).
+```sh
 go install github.com/lc/gau/v2/cmd/gau@latest
 sudo mv ~/go/bin/gau /usr/local/bin/
+```
+
+4. <https://github.com/projectdiscovery/nuclei> (Scanner).
+```sh
 go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 sudo mv ~/go/bin/nuclei /usr/local/bin/
 ```
 
 <br/>
 
-Install:
+### Script Install
 
 ```sh
 git clone https://github.com/xchopath/jsniper.sh
