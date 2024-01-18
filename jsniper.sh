@@ -1,6 +1,11 @@
-#!/usr/env/bin bash
+#!/usr/bin/env bash
 
 TARGET="${1}"
+
+if [[ -z ${TARGET} ]]; then
+	echo "ERROR: no target is provided (example: ${0} www.target.com)"
+	exit
+fi
 
 function JavascriptScan() {
 	TARGET="${1}"
