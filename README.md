@@ -1,7 +1,8 @@
 # jsniper.sh
 JavaScript Sniper is a helper script designed for web applications, with a focus on uncovering potential vulnerabilities, it excels in finding hardcoded secret keys, detecting DOM-based Cross-Site Scripting (DOM-XSS), and extracting endpoints.
 
-![Flowchart](https://github.com/xchopath/jsniper.sh/assets/44427665/ca158071-a4f0-41ca-8fa9-5045685365e0)
+![JavaScript Sniper](https://github.com/xchopath/jsniper.sh/assets/44427665/734ab3f2-4296-4306-bc92-f6decadc17f9)
+
 
 ## Installation
 
